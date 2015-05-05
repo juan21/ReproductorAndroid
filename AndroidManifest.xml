@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reproduct4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemActivity"
+            android:label="@string/title_activity_item" >
+        </activity>
+        <activity
+            android:name=".ListaMusica"
+            android:label="@string/title_activity_lista_musica" >
+        </activity>
+        <activity
+            android:name=".Pista1Activity"
+            android:label="@string/title_activity_pista1" >
+        </activity>
+        <activity
+            android:name=".Pista2Activity"
+            android:label="@string/title_activity_pista2" >
+        </activity>
+        <activity
+            android:name=".Pista3Activity"
+            android:label="@string/title_activity_pista3" >
+        </activity>
+        <activity
+            android:name=".Pista4Activity"
+            android:label="@string/title_activity_pista4" >
+        </activity>
+        <activity
+            android:name=".Pista5Activity"
+            android:label="@string/title_activity_pista5" >
+        </activity>
+    </application>
+
+</manifest>
